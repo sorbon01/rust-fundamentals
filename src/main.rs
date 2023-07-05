@@ -1,3 +1,6 @@
+fn add(num_one:i32, num_two:i32)-> i32 {
+    return num_one+num_two;
+}
 fn main() {
-    println!("Hello, world!");
+    let _foo = add(10, 5);
 }
