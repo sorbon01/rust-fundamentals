@@ -22,7 +22,7 @@ fn is_verified(account: &BankAccount) -> Result<bool, bool>{
 fn main() {
     let my_account = BankAccount {
         balance: 20,
-        verified: false
+        verified: true
     };
 
     let verification_status = is_verified(&my_account)
